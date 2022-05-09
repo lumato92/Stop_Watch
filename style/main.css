@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.main-container{
+    margin: auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.timer-screen{
+    display: flex;
+    margin: auto;
+    font-size: 3em;
+
+}
+.ctr-btns{
+    margin: auto;
+    display: flex;
+    width: inherit;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.ctr-btn{
+    width: 20%;
+}
+
+.lap-container{
+    width: inherit;
+    height: 400px;
+    background-color: beige;
+}
+
+.lap-container h3{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.lap-list > li {
+    text-align: center;
+    list-style: none;
+    font-size: 2em;
+}
